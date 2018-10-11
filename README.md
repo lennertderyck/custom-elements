@@ -24,12 +24,12 @@ The first part of the css class decides wich characteristic we change of an html
 **no-margin** Removes any margin of an element.
 You can add an second part-tag.
 
-**no-padding** Removes any padding of an element.
+**no-padding** Removes any padding of an element.<br>
 You can add an second part-tag.
 
 **no-outline** Removes the outline of an element.
 
-**no-border** Removes the border of an element.
+**no-border** Removes the border of an element.<br>
 You can add an second part-tag.
 
 **uppc** Set any text whitin an html-element in capital.
@@ -37,7 +37,7 @@ You can add an second part-tag.
 **lowc** Set any text whitin an html-element in lowercase.
 
 ### Tags - Second Part
-When the css class can be used to define different parts of an html-element (like a top border or left margin) the folling tags are used to define wich part we want to call of that element.
+When the css class can be used to define different parts of an html-element (like a top border or left margin) the following tags are used to define wich part we want to call of that element.
 
 **[first part]-x**
 Calls the left and right part of an element.
@@ -68,3 +68,9 @@ Add extra classes by sesparating them with a space.
 ```html
 <p class="no-margin uppc">hello world!</p>
 ```
+
+## Bugs
+Found a bug? Let me know and I wil to solve it as quick as possible!
+
+Mail: <a href="mailto:hello@lennertderyck.be?subject=Custom elements - Bug">hello@lennertderyck.be</a><br>
+Website: <a href="https://lennertderyck.be/contact" rel="noopener" target="_blank">lennertderyck.be/contact</a>
