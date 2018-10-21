@@ -165,12 +165,18 @@
 }
 
 /* COLLAPSE */
-.collapse-area {
-	border: 10px solid deeppink;
+.collapse-area, .collapse-area *, .collapse-area > * {
 	transition: 0.3s all ease-in-out;
 }
 
-.collapse-area-active {
-	border: 10px solid blueviolet;
+.collapse-area-active, .collapse-area-active *,  .collapse-area-active > * {
 	transition: 0.3s all ease-in-out;
+}
+
+.collapse-item {
+	overflow: hidden;
+}
+
+.collapse-item-container {
+	min-height: fit-content;
 }
