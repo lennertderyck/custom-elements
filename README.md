@@ -57,6 +57,12 @@ Calls the left part of an element.
 **[first part]-r**
 Calls the right part of an element.
 
+### Javascript enabled functions
+Add the following code to enable collapse function
+```html
+class="collapse-area" onclick="collapse(this)"
+```
+
 ### Add to a html-element
 You can add a class by adding the 'class' attribute to a html-element.
 ```html
