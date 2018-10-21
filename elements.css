@@ -163,3 +163,14 @@
     transform: rotate(225deg) translateY(-7px);
     z-index: 99999999999;
 }
+
+/* COLLAPSE */
+.collapse-area {
+	border: 10px solid deeppink;
+	transition: 0.3s all ease-in-out;
+}
+
+.collapse-area-active {
+	border: 10px solid blueviolet;
+	transition: 0.3s all ease-in-out;
+}
