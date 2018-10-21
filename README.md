@@ -2,7 +2,7 @@
 A library of css classes, supported by some javascript, that can be easily added to html elements.
 
 ## Get started
-Add the library to your website by adding follow code to your website's head.
+Add the library to your website by adding following code to your website's head.
 ```css
 <script src="https://lennertderyck.github.io/custom-elements/elements.js"></script>
 ```
@@ -77,7 +77,7 @@ Add extra classes by sesparating them with a space.
 ```
 
 ## Bugs
-Found a bug? Let me know and I wil to solve it as quick as possible!
+Found a bug? Let me know and I wil solve it as quick as possible!
 
 Mail: <a href="mailto:hello@lennertderyck.be?subject=Custom elements - Bug">hello@lennertderyck.be</a><br>
 Website: <a href="https://lennertderyck.be/contact" rel="noopener" target="_blank">lennertderyck.be/contact</a>
