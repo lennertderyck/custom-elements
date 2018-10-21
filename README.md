@@ -62,6 +62,7 @@ Add the following code to enable collapse function
 ```html
 class="collapse-area" onclick="collapse(this)"
 ```
+This will change the class "collapse-area" to "collapse-area-active", so now you can use selectors to control the behavior.
 
 ### Add to a html-element
 You can add a class by adding the 'class' attribute to a html-element.
