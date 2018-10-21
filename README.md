@@ -1,10 +1,13 @@
 # Custom-elements
-A library of css classes that can be easily added to html elements.
+A library of css classes, supported by some javascript, that can be easily added to html elements.
 
 ## Get started
 Add the library to your website by adding follow code to your website's head.
 ```css
-<link rel="stylesheet" href="https://raw.githubusercontent.com/lennertderyck/custom-elements/master/elements.css">
+<link rel="stylesheet" href="https://lennertderyck.github.io/custom-elements/elements.css">
+```
+```css
+<script src="https://lennertderyck.github.io/custom-elements/custom.js"></script>
 ```
 ## Use
 Now you added the css-file to your site you can start using it.
