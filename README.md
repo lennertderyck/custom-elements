@@ -7,7 +7,7 @@ Add the library to your website by adding follow code to your website's head.
 <script src="https://lennertderyck.github.io/custom-elements/elements.js"></script>
 ```
 ## Use
-Now you added the css-file to your site you can start using it.
+Now you added the javascript-file to your site you can start using it. The script also adds the css-file.
 
 ### Tags - First Part
 A css-class has diffrent parts in it's name.
