@@ -11,7 +11,7 @@
 .status-dot {
 	background-color: green !important;
 }
-.status-text::after {
+.status-text::before {
 	content: 'on' !important;
 }
 
