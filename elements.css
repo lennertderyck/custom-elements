@@ -179,6 +179,11 @@
 }
 
 /* COLLAPSE */
+.collapse-item {
+	height: unset;
+	/* test test */
+}
+
 .collapse-area, .collapse-area *, .collapse-area > * {
 	transition: var(--collapse-trans-time) all ease-in-out;
 }
