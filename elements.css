@@ -11,6 +11,9 @@
 .status-dot {
 	background-color: green !important;
 }
+.status-text::after {
+	content: 'on' !important;
+}
 
 /* ELEMENTS */
 .no-select {
