@@ -81,7 +81,7 @@ You can tweak some css-settings by downloading the <a href="https://lennertderyc
 The options.css-file that you'll find in the folder works with css variables where you change the last part of the rule.
 
 ## Bugs
-Found a bug? Let me know and I wil solve it as quick as possible!
+Found a bug? Let me know and I will try to solve it as quick as possible.
 
 Mail: <a href="mailto:hello@lennertderyck.be?subject=Custom elements - Bug">hello@lennertderyck.be</a><br>
 Website: <a href="https://lennertderyck.be/contact" rel="noopener" target="_blank">lennertderyck.be/contact</a>
