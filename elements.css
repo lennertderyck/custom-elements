@@ -2,6 +2,7 @@
 :root {
 	--collapse-trans-time: 0.3s;
 	--tooltip-trans-time: 0.2s;
+	--border-radius: 6px;
 }
 
 
@@ -172,6 +173,11 @@
     z-index: 99999999999;
 }
 
+/* BORDER RADIUS */
+.border-rd {
+	border-radius: var(--border-radius);
+}
+
 /* COLLAPSE */
 .collapse-area, .collapse-area *, .collapse-area > * {
 	transition: var(--collapse-trans-time) all ease-in-out;
@@ -181,12 +187,13 @@
 	transition: var(--collapse-trans-time) all ease-in-out;
 }
 
-.collapse-area-active .collapse-item {
-	height: 100%;
+.collapse-area .collapse-item {
+	height: 0px;
+	overflow: hidden;
 }
 
-.collapse-item {
-	overflow: hidden;
+.collapse-area-active .collapse-item {
+	height: 100%;
 }
 
 .collapse-item-container {
