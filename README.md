@@ -76,6 +76,10 @@ Add extra classes by sesparating them with a space.
 <p class="no-margin uppc">hello world!</p>
 ```
 
+### CSS options
+You can tweak some css-settings by downloading the <a href="https://lennertderyck.github.io/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip file</a> and adding the unzipt file it to the root of your site.
+The options.css-file that you'll find in the folder works with css variables where you change the last part of the rule.
+
 ## Bugs
 Found a bug? Let me know and I wil solve it as quick as possible!
 
