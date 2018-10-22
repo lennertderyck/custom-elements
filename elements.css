@@ -3,6 +3,13 @@
 	--collapse-trans-time: 0.3s;
 	--tooltip-trans-time: 0.2s;
 	--border-radius: 6px;
+	--tooltip-bg-color: #3D3D3D;
+	--tooltip-color: white;
+}
+
+/* STATUS */
+.status-dot {
+	background-color: green !important;
 }
 
 /* ELEMENTS */
@@ -149,12 +156,12 @@
     top: 105%;
     max-width: calc(100% - 10px);
     left: 0%;
-    background-color: #3D3D3D;
+    background-color: var(--tooltip-bg-color);
     padding: 5px 10px;
     border-radius: 0px 2px 2px 2px;
     font-family: 'Overpass';
     font-size: 0.8rem;
-    color: white;
+    color: var(--tooltip-color);
     transition: ease-in-out var(--tooltip-trans-time);
     z-index: 99999999999;
 }
@@ -162,12 +169,12 @@
 .tooltip-b:hover::before {
     content: " ";
     position: absolute;
-    top: calc(100% - 3px);  /* At the top of the tooltip */
+    top: calc(100% - 3px);
     left: calc(0% + 5px);
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #3D3D3D transparent;
+    border-color: transparent transparent var(--tooltip-bg-color) transparent;
     transform: rotate(225deg) translateY(-7px);
     z-index: 99999999999;
 }
@@ -178,8 +185,6 @@
 }
 
 /* COLLAPSE */
-
-
 .collapse-area-active {
 	height: auto;
 }
