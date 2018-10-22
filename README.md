@@ -64,7 +64,7 @@ class="collapse-area" onclick="collapse(this)"
 ```
 This will change the class "collapse-area" to "collapse-area-active", so now you can use selectors to control the behavior.
 
-### Add to a html-element
+## Add to a html-element
 You can add a class by adding the 'class' attribute to a html-element.
 ```html
 <p class="no-margin">hello world!</p>
@@ -76,7 +76,7 @@ Add extra classes by sesparating them with a space.
 <p class="no-margin uppc">hello world!</p>
 ```
 
-### CSS options
+## CSS options
 You can tweak some css-settings by downloading the <a href="https://lennertderyck.github.io/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip</a> file and adding the unzipt file it to the root of your site.
 The options.css-file that you'll find in the folder works with css variables where you change the last part of the rule.
 
