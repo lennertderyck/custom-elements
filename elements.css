@@ -5,7 +5,6 @@
 	--border-radius: 6px;
 }
 
-
 /* ELEMENTS */
 .no-select {
 	-webkit-user-select: none !important;
@@ -179,9 +178,10 @@
 }
 
 /* COLLAPSE */
-.collapse-item {
-	height: unset;
-	/* test test */
+
+
+.collapse-area-active {
+	height: auto;
 }
 
 .collapse-area, .collapse-area *, .collapse-area > * {
@@ -192,13 +192,22 @@
 	transition: var(--collapse-trans-time) all ease-in-out;
 }
 
+.collapse-area {
+	max-height: fit-content;
+}
+
+.collapse-area-active {
+	max-height: fit-content;
+}
+
 .collapse-area .collapse-item {
-	height: 0px;
-	overflow: hidden;
+	height: 0%;
+	max-height: fit-content;
 }
 
 .collapse-area-active .collapse-item {
 	height: 100%;
+    max-height: fit-content;
 }
 
 .collapse-item-container {
