@@ -10,7 +10,7 @@ Add the library to your website by adding following code to your website's head.
 Now you added the javascript-file to your site you can start using it. The script also adds the css-file.
 
 ### Tags - First Part
-A css-class has diffrent parts in it's name.
+Most css-classes has diffrent parts in it's name.
 The first part of the css class decides wich characteristic we change of an html-element.
 
 **no-select** It disables the selection of that html-element.
@@ -64,6 +64,9 @@ class="collapse-area" onclick="collapse(this)"
 ```
 This will change the class "collapse-area" to "collapse-area-active", so now you can use selectors to control the behavior.
 
+### Other tags
+**disabled** Disables interaction with an element by adding various css-classes. This element will be faded and won't be clickable.
+
 ## Add to a html-element
 You can add a class by adding the 'class' attribute to a html-element.
 ```html
@@ -75,6 +78,7 @@ Add extra classes by sesparating them with a space.
 ```html
 <p class="no-margin uppc">hello world!</p>
 ```
+
 
 ## CSS options
 You can tweak some css-settings by downloading the <a href="https://lennertderyck.github.io/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip</a> file and adding the unzipt file it to the root of your site.
