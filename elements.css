@@ -17,7 +17,7 @@
 
 /* DISABLE */
 .disabled {
-	opacity: 0.4 !important;
+	opacity: var(--disabled-fade) !important;
 	cursor: not-allowed !important;
 	pointer-events: none !important;
 	user-drag: none;
