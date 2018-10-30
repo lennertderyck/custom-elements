@@ -5,6 +5,7 @@
 	--border-radius: 6px;
 	--tooltip-bg-color: #3D3D3D;
 	--tooltip-color: white;
+	--disabled-fade: 0.4;
 }
 
 /* STATUS */
