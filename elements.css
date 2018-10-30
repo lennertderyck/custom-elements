@@ -5,7 +5,7 @@
 	--border-radius: 6px;
 	--tooltip-bg-color: #3D3D3D;
 	--tooltip-color: white;
-	--disabled-fade: 0.4;
+	--disabled-fade: 0.6;
 }
 
 /* STATUS */
@@ -32,7 +32,7 @@
 	display: none !important;
 	visibility: hidden !important;
 	opacity: 0 !important;
-	color: rgba(255, 255, 255, 0) !important;
+	background-color: rgba(255, 255, 255, 0) !important;
 }
 
 /* ELEMENTS */
