@@ -16,7 +16,7 @@
 }
 
 /* DISABLE */
-.disabled {
+.disabled, .disabled * {
 	opacity: var(--disabled-fade) !important;
 	cursor: not-allowed !important;
 	pointer-events: none !important;
