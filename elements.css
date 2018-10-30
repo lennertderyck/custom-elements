@@ -27,6 +27,12 @@
 	user-select: none !important;
 }
 
+.disabled *::selection {
+	display: none !important;
+	opacity: 0 !important;
+	color: rgba(255, 255, 255, 0) !important;
+}
+
 /* ELEMENTS */
 .no-select {
 	-webkit-user-select: none !important;
