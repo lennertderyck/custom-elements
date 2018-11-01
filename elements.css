@@ -162,8 +162,12 @@
 	border-left: 0px !important;
 }
 
-.no-padding-r {
+.no-border-r {
 	padding-right: 0px !important;
+}
+
+.rounded {
+	border-radius: 120px !important;
 }
 
 /* TOOLTIPS */
