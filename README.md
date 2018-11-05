@@ -4,7 +4,7 @@ A library of css classes, supported by some javascript, that can be easily added
 ## Get started
 Add the library to your website by adding following code to your website's head.
 ```css
-<script src="https://lennertderyck.github.io/custom-elements/elements.js"></script>
+<script src="http://ce.lennertderyck.be/elements.js"></script>
 ```
 ## Use
 Now you added the javascript-file to your site you can start using it. The script also adds the css-file.
