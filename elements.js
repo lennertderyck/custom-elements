@@ -32,3 +32,8 @@ function collapse(div) {
     div.className = "collapse-area";
   }
 }
+
+// Add toggle function
+function toggle(div) {
+  div.classList.toggle("toggle-active");
+}
