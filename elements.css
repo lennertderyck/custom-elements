@@ -21,7 +21,7 @@
 	opacity: var(--disabled-fade) !important;
 	cursor: not-allowed !important;
 	pointer-events: none !important;
-	user-drag: none;
+	user-drag: none !important;
 	-webkit-user-select: none !important;
 	-moz-user-select: none !important;
 	-ms-user-select: none !important;
@@ -242,4 +242,9 @@
 
 .collapse-item-container {
 	min-height: fit-content;
+}
+
+/* IMAGES */
+.img-fit {
+	object-fit: contain;
 }
