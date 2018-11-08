@@ -58,11 +58,31 @@ Calls the left part of an element.
 Calls the right part of an element.
 
 ### Javascript enabled functions
-Add the following code to enable collapse function
+**Collapse**<br>
+Add the following code to enable the collapse function
 ```html
 class="collapse-area" onclick="collapse(this)"
 ```
 This will change the class "collapse-area" to "collapse-area-active", so now you can use selectors to control the behavior.
+<br>Attention! The "collapse"-function will remove any other class from an element and replace it with the "collapse-area-active"-class.
+
+**Toggle**<br>
+Add the following code to enable the toggle function
+```html
+onclick="toggle(this)"
+```
+This will add or remove the "toggle-active"-class to/from an element. You can also add the class in advance.
+After that you can control the behavior of that element with the help of some css and css-selectors.
+
+```css
+.an-element:not(.toggle-active) {
+  height: 0%
+}
+
+.an-element.toggle-active {
+  height: 100%
+}
+```
 
 ### Other tags
 **disabled** Disables interaction with an element by adding various css-classes. This element will be faded and won't be clickable.
