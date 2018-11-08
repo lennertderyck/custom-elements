@@ -36,6 +36,8 @@ You can add an second part-tag.
 
 **lowc** Set any text whitin an html-element in lowercase.
 
+**img-fit** This class can be added to the img-element. With this class you can set any size for an image without stretching it, the image wil be contained within its frame. So you won't have to use an div with a background-image or an container.
+
 ### Tags - Second Part
 When the css class can be used to define different parts of an html-element (like a top border or left margin) the following tags are used to define wich part we want to call of that element.
 
