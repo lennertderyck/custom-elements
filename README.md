@@ -1,6 +1,12 @@
 # Custom-elements
 A library of css classes, supported by some javascript, that can be easily added to html elements.
 
+<div style="backround-color: ">
+  ## What's new
+  **Toggle-function**
+  
+</div>
+
 ## Get started
 Add the library to your website by adding following code to your website's head.
 ```css
