@@ -3,7 +3,7 @@ A library of css classes, supported by some javascript, that can be easily added
 
 <div style="backround-color: #D7ECC6; border: 2px solid #8DB96C;">
   <h2>What's new</h2>
-  <strong>Toggle-function</strong>
+  <strong>Toggle-function</strong><br>
   <strong>img-fit</strong>
 </div>
 
