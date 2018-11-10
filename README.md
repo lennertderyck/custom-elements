@@ -112,6 +112,8 @@ Add extra classes by sesparating them with a space.
 You can tweak some css-settings by downloading the <a href="https://lennertderyck.github.io/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip</a> file and adding the unzipt file it to the root of your site.
 The options.css-file that you'll find in the folder works with css variables where you change the last part of the rule.
 
+You don't need to link the css-file in in your websites head, that's already done by the script.
+
 ## Bugs
 Found a bug? Let me know and I will try to solve it as quick as possible.
 
