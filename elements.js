@@ -1,7 +1,7 @@
-addCSS('style.css');
+addCSSMain('style.css');
 
 // Include CSS file
-function addCSS(filename){
+function addCSSMain(filename){
     var head = document.getElementsByTagName('head')[0];
 
     var style = document.createElement('link');
@@ -11,8 +11,10 @@ function addCSS(filename){
     head.append(style);
 }
 
+addCSSOptions('style.css');
+
 // Include CSS file options
-function addCSS(filename){
+function addCSSOptions(filename){
   var head = document.getElementsByTagName('head')[0];
 
   var style = document.createElement('link');
