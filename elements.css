@@ -246,5 +246,9 @@
 
 /* IMAGES */
 .img-fit {
+	object-fit: cover;
+}
+
+.img-fit-ct {
 	object-fit: contain;
 }
