@@ -252,3 +252,13 @@
 .img-fit-ct {
 	object-fit: contain;
 }
+
+/* TEXT IMAGE CLIP */
+.img-clip {
+	background-image: attr(data-bg-img);
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	color: transparent;
+}
