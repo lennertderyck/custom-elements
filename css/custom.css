@@ -1,0 +1,32 @@
+textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    /* height: fit-content; */
+}
+
+pre {
+    white-space: pre-line;
+    user-select: all;
+    color: #007bff;
+}
+
+.card-text > pre {
+    margin-bottom: 0px;
+}
+
+#site-dev-warning {
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* GET STARTED */
+#get-started {
+    margin-bottom: 2rem;
+}

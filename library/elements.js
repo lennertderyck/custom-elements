@@ -5,7 +5,7 @@ function addCSSMain(filename){
     var head = document.getElementsByTagName('head')[0];
 
     var style = document.createElement('link');
-    style.href = 'https://lennertderyck.github.io/custom-elements/elements.css';
+    style.href = 'https://lennertderyck.github.io/custom-elements/library/elements.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
