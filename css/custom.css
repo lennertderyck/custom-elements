@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth !important;
 }
 
+* {
+    outline: none !important;
+}
+
 :target {
     animation-name:example;
     animation-duration: 2s;
@@ -38,6 +42,21 @@ pre {
     border-color: #007bff;
 }
 
+/* BUTTONS */
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-lg {
+    font-size: 15px;
+}
+
+/* BUTTON ROW */
+.button-row > a{
+    margin-right: 15px;
+}
+
 /* LIST GROUP */
 .list-group-item > :not(h5):last-child {
     margin-bottom: 0px;
@@ -49,8 +68,17 @@ pre {
 }
 
 /* USE OF TAGS */
+    /* TAG SEARCH */
+    #search-list-tags {
+        margin-bottom: 20px;
+    }
+
+    #filter-list-tags > dl > div {
+        margin-bottom: 20px;
+    }
+
     /* TAG ROWS */
-    #tags > .row > div {
+    #tags .row > div {
         margin-bottom: 40px;
     }
 
@@ -60,13 +88,58 @@ pre {
     }
 
     /* TAG BADGES */
-    #tags-first > ul > li .badge, #tags-scnd > ul > li .badge {
+    #tags-first > ul > li .badge, #tags-scnd > ul > li .badge, .badge-tag-scnd {
         margin-left: 10px;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-size: 0.7rem;
         user-select: none;
     }
+
+        /* TAG BADGE SECOND TAG SUPPORT */
+
+        div[badge-tag-scnd] {
+            display: inline-block;
+            color: #fff;
+            background-color: #6c757d;
+            font-weight: 700;
+            font-size: 11.2px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25rem;
+            padding: .25em .4em;
+            margin-left: 10px;
+        }
+
+        div[badge-tag-scnd]::after {
+            content: 'second tag';
+        }
+
+        /* TAG BADGE BUG */
+        div[badge-tag-bug] {
+            display: inline-block;
+            color: #fff;
+            background-color: #dc3545;
+            font-weight: 700;
+            font-size: 11.2px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25rem;
+            padding: .25em .4em;
+            margin-left: 10px;
+        }
+
+        div[badge-tag-bug]::after {
+            content: 'bug';
+        }
 
     /* WHATS NEW */
     #whats-new {
