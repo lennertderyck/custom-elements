@@ -10,7 +10,7 @@ A library of css classes, supported by some javascript, that can be easily added
 ## Get started
 Add the library to your website by adding following code to your website's head.
 ```css
-<script src="https://ce.lennertderyck.be/elements.js"></script>
+<script src="https://ce.lennertderyck.be/library/elements.js"></script>
 ```
 
 All the necessary code for linking the css- and javascript-library, including the options.css-file is added by the script.
