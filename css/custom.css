@@ -30,3 +30,44 @@ pre {
 #get-started {
     margin-bottom: 2rem;
 }
+
+/* USE OF TAGS */
+    /* TAG SELECTION */
+    #tags > div > div:nth-child(1) > ul > li > h5 {
+        user-select: all
+    }
+
+    /* TAG BADGES */
+    #tags > div > div:nth-child(1) > ul > li .badge {
+        margin-left: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.7rem;
+    }
+
+    /* WHATS NEW */
+    #whats-new {
+        margin-bottom: 2rem;
+        border-color: #007bff;
+    }
+
+    #whats-new > .card-header {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    #whats-new > .card-body > :last-child {
+        margin-bottom: 0px;
+    }
+
+    #whats-new > .card-body > h5 {
+        margin-bottom: 0px;
+    }
+
+/* MEDIA QUERIES */
+@media (min-width: 576px){
+    .jumbotron.jumbotron-subpage {
+        padding: 2rem 2rem;
+    }
+}
