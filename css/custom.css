@@ -1,14 +1,26 @@
-textarea {
-    width: 100%;
-    resize: none;
-    border: none;
-    /* height: fit-content; */
+html {
+    scroll-behavior: smooth !important;
+}
+
+:target {
+    animation-name:example;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+}
+
+@keyframes example {
+    from  {background-color: #007bff2f;}
+    to {background-color: #007bff00;}
 }
 
 pre {
     white-space: pre-line;
     user-select: all;
     color: #007bff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e9e9e9;
 }
 
 .card-text > pre {
@@ -26,23 +38,34 @@ pre {
     border-color: #007bff;
 }
 
+/* LIST GROUP */
+.list-group-item > :not(h5):last-child {
+    margin-bottom: 0px;
+}
+
 /* GET STARTED */
 #get-started {
     margin-bottom: 2rem;
 }
 
 /* USE OF TAGS */
+    /* TAG ROWS */
+    #tags > .row > div {
+        margin-bottom: 40px;
+    }
+
     /* TAG SELECTION */
-    #tags > div > div:nth-child(1) > ul > li > h5 {
+    #tags-first > ul > li > h5, #tags-scnd > ul > li > h5 {
         user-select: all
     }
 
     /* TAG BADGES */
-    #tags > div > div:nth-child(1) > ul > li .badge {
+    #tags-first > ul > li .badge, #tags-scnd > ul > li .badge {
         margin-left: 10px;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-size: 0.7rem;
+        user-select: none;
     }
 
     /* WHATS NEW */
