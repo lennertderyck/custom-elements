@@ -9,7 +9,7 @@
 :target {
     animation-name:example;
     animation-duration: 2s;
-    animation-delay: 0.4s;
+    animation-delay:
 }
 
 @keyframes example {
