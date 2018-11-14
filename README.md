@@ -12,20 +12,24 @@ Add the library to your website by adding following code to your website's head.
 ```css
 <script src="https://ce.lennertderyck.be/elements.js"></script>
 ```
+
+All the necessary code for linking the css- and javascript-library, including the options.css-file is added.
+
+
 ## Use
 Now you added the javascript-file to your site you can start using it. The script also adds the css-file.
 
 ### Tags - First Part
-Most css-classes has diffrent parts in it's name.
+Most css-classes have diffrent parts in it's name.
 The first part of the css class decides wich characteristic we change of an html-element.
 
 **no-select** It disables the selection of that html-element.
 
-**no-save** It disables the saving of images or similar files by disabling of the 'Save as' in the context menu when right clicked on an image or other file. It also disables the selection of the html-element.
+**no-save** Disables the saving of images or similar files by disabling of the 'Save as' in the context menu when right clicked on an image or other file. It also disables the selection of the html-element.
 
-**no-display** It removes the element. The element won't take any space when removed.
+**no-display** Removes the element. The element won't take any space when removed.
 
-**hidden** It hides the element but still takes space.
+**hidden** Hides the element but still takes space.
 
 **no-margin** Removes any margin of an element.
 You can add an second part-tag.
@@ -102,7 +106,7 @@ You can add a class by adding the 'class' attribute to a html-element.
 ```
 
 
-Add extra classes by sesparating them with a space.
+Add extra classes by separating them with a space.
 ```html
 <p class="no-margin uppc">hello world!</p>
 ```
