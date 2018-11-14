@@ -13,25 +13,24 @@ Add the library to your website by adding following code to your website's head.
 <script src="https://ce.lennertderyck.be/elements.js"></script>
 ```
 
-All the necessary code for linking the css- and javascript-library, including the options.css-file is added.
-
+All the necessary code for linking the css- and javascript-library, including the options.css-file is added by the script.
 
 ## Use
-Now you added the javascript-file to your site you can start using it. The script also adds the css-file.
+Now you added the javascript-file to your site you can start using it.
 
 ### Tags - First Part
 Most css-classes have diffrent parts in it's name.
-The first part of the css class decides wich characteristic we change of an html-element.
+The first part defines the characteristics that need to change of a html-element.
 
-**no-select** It disables the selection of that html-element.
+**no-select** Disables the selection of a html-element.
 
-**no-save** Disables the saving of images or similar files by disabling of the 'Save as' in the context menu when right clicked on an image or other file. It also disables the selection of the html-element.
+**no-save** Disables the saving of images or similar files by disabling the 'Save as'-option in the context menu when right clicked on an image or other file. It also disables the selection of the html-element.
 
 **no-display** Removes the element. The element won't take any space when removed.
 
 **hidden** Hides the element but still takes space.
 
-**no-margin** Removes any margin of an element.
+**no-margin** Removes any margin of an element.<br>
 You can add an second part-tag.
 
 **no-padding** Removes any padding of an element.<br>
@@ -46,7 +45,7 @@ You can add an second part-tag.
 
 **lowc** Set any text whitin an html-element in lowercase.
 
-**img-fit** This class can be added to the img-element. With this class you can set any size for an image without stretching it, the image wil be contained within its frame. So you won't have to use a div with a background-image, a container or manually crop the image in a photo-editor.
+**img-fit** This class can be added to the img-element. With this class you can set any ratio for an image without stretching the image, the image wil be contained within its frame and behave a bit like a background-iamge. So you won't have to use a div with a background-image, a container or manually crop the image in a photo-editor.
 
 ### Tags - Second Part
 When the css class can be used to define different parts of an html-element (like a top border or left margin) the following tags are used to define wich part we want to call of that element.
@@ -113,10 +112,10 @@ Add extra classes by separating them with a space.
 
 
 ## CSS options
-You can tweak some css-settings by downloading the <a href="https://lennertderyck.github.io/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip</a> file and adding the unzipt file it to the root of your site.
+You can tweak some css-settings by downloading the <a href="https://lennertderyck.github.io/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip</a> file and adding the unzipt folder to the root of your site.
 The options.css-file that you'll find in the folder works with css variables where you change the last part of the rule.
 
-You don't need to link the css-file in in your websites head, that's already done by the script.
+You don't need to link the options.css-file in in your websites head, that's already done by the script.
 
 ## Bugs
 Found a bug? Let me know and I will try to solve it as quick as possible.
