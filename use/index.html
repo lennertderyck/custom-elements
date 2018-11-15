@@ -12,8 +12,13 @@
     <link rel="stylesheet" href="../css/custom.css">
     <script src="https://ce.lennertderyck.be/library/elements.js"></script>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   </head>
   <body>
+    <a id="go-to-top" href="#">
+        <i class="material-icons">keyboard_arrow_up</i>
+    </a>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="../.">Custom elements</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +79,7 @@
 
     <div id="tags" class="container">
         <div class="row">
-            <div id="filter-list-tags" class="col-3">
+            <div id="filter-list-tags" class="col col-12 col-lg-3">
                 <h3>
                     Filter
                 </h3>
@@ -110,7 +115,7 @@
                     </div>
                 </dl>
             </div>
-            <div class="col-9">
+            <div class="col col-12 col-lg-9">
                 <div class="row">
                     <div id="tags-first" class="col-md">
                         <h3>Tags - first part</h3>
@@ -142,6 +147,7 @@
                             </li>
                         </ul>
                     </div>
+                </div>
                 <div class="row">
                     <div id="tags-scnd" class="col-md">
                         <h3>Tags - Second part</h3>
@@ -158,9 +164,8 @@
                         </ul>
                     </div>
                 </div>
-                </div>
                 <div class="row">
-                    <div class="col">
+                    <div id="js-functions" class="col">
                         <h3>Javascript functions</h3>
                         <p>
                             There are also some javascript enabled functions you can use.
@@ -199,6 +204,17 @@
                         </ul>
                     </div>
                 </div>
+                <div class="row">
+                    <div id="css-options" class="col">
+                        <h3>Options.css</h3>
+                        <p>
+                            You can tweak some css-settings by downloading the <a class="text-muted" href="https://lennertderyck.github.io/library/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip</a> file and adding the unzipt folder to the root of your site. The options.css-file that you'll find in the folder works with css variables where you change the last part of the rule.
+                        </p>
+                        <p>
+                            You don't need to link the options.css-file in in your websites head, that's already done by the script.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -211,32 +227,27 @@
                     <small class="d-block mb-3 text-muted">© 2018-2019</small>
                 </div>
                 <div class="col-6 col-md">
-                    <h5>Features</h5>
+                    <h5>Use</h5>
                     <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Cool stuff</a></li>
-                    <li><a class="text-muted" href="#">Random feature</a></li>
-                    <li><a class="text-muted" href="#">Team feature</a></li>
-                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                    <li><a class="text-muted" href="#">Another one</a></li>
-                    <li><a class="text-muted" href="#">Last time</a></li>
+                        <li><a class="text-muted" href="#tags-first">Tags - first part</a></li>
+                        <li><a class="text-muted" href="#tags-scnd">Tags - second part</a></li>
+                        <li><a class="text-muted" href="#js-functions">Javascript functions</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">
                     <h5>Resources</h5>
                     <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Resource</a></li>
-                    <li><a class="text-muted" href="#">Resource name</a></li>
-                    <li><a class="text-muted" href="#">Another resource</a></li>
-                    <li><a class="text-muted" href="#">Final resource</a></li>
+                        <li><a class="text-muted" href="https://ce.lennertderyck.be/library/elements.css">Cascade Style Sheet</a></li>
+                        <li><a class="text-muted" href="https://ce.lennertderyck.be/library/elements.js">Javascript</a></li>
+                        <li><a class="text-muted" href="https://lennertderyck.github.io/library/custom-elements/custom-elements/custom-elements.zip" download>Options.css</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">
                     <h5>About</h5>
                     <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Team</a></li>
-                    <li><a class="text-muted" href="#">Locations</a></li>
-                    <li><a class="text-muted" href="#">Privacy</a></li>
-                    <li><a class="text-muted" href="#">Terms</a></li>
+                        <li><a class="text-muted" href="#">Why</a></li>
+                        <li><a class="text-muted" href="#">Contact</a></li>
+                        <li><a class="text-muted" href="#">License</a></li>
                     </ul>
                 </div>
             </div>
