@@ -49,6 +49,7 @@ pre {
     width: 65px;
     overflow: hidden;
     background: linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(5,126,255,0) 50%, rgba(5,126,255,1) 50%, rgba(0,123,255,1) 51%, rgba(0,123,255,1) 100%);
+    z-index: 3000;
 }
 
 #go-to-top > i {
