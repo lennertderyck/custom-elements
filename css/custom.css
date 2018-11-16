@@ -31,15 +31,38 @@ pre {
 }
 
 #site-dev-warning {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 100%;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     padding: .375rem .75rem;
+    padding-left: 57px;
+    padding-right: 57px;
     border-radius: .25rem;
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: #007bff;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    z-index: 2500;
 }
+
+.navbar-brand > img {
+    height: 50px;
+}
+
+h3 {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+}
+
+h5 {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 /* GO TO TOP */
 #go-to-top {
     position: fixed;
@@ -76,6 +99,8 @@ pre {
 
 /* BUTTONS */
 .btn {
+    font-family: 'Wavehaus';
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -89,9 +114,29 @@ pre {
     margin-right: 15px;
 }
 
+/* JUMBOTRON */
+.jumbotron > .container > h1 {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+}
+
 /* LIST GROUP */
 .list-group-item > :not(h5):last-child {
     margin-bottom: 0px;
+}
+
+/* CARD */
+.card > h5.card-header {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-body > h5.card-title {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: 1px;
 }
 
 /* GET STARTED */
@@ -101,6 +146,13 @@ pre {
 
 /* USE OF TAGS */
     /* TAG SEARCH */
+    #list-tags > div > dt {
+        font-family: 'Wavehaus';
+        font-weight: 600;
+        text-transform: lowercase;
+        letter-spacing: 1px;
+    }
+
     #search-list-tags {
         margin-bottom: 20px;
     }
@@ -194,8 +246,22 @@ pre {
     }
 
 /* MEDIA QUERIES */
+@media (max-width: 576px){
+    body {
+        padding-bottom: 36px;
+    }
+}
+
 @media (min-width: 576px){
     .jumbotron.jumbotron-subpage {
         padding: 2rem 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #site-dev-warning {
+        text-align: right;
+        max-width: fit-content;
+        padding-left: .75rem;
     }
 }
