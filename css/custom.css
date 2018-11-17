@@ -239,7 +239,7 @@ h5{
         }
 
     /* WHATS NEW */
-    #whats-new {
+    #whats-new, #coming-soon {
         margin-bottom: 2rem;
         border-color: #007bff;
     }
@@ -255,6 +255,25 @@ h5{
     }
 
     #whats-new > .card-body > h5 {
+        margin-bottom: 0px;
+    }
+
+    /* COMING SOON */
+    #coming-soon {
+        margin-top: 2rem;
+    }
+
+    #coming-soon > .card-header {
+        color: #007bff;
+    }
+
+    #coming-soon > .card-body {
+        color: black;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    #coming-soon > .card-body > :last-child {
         margin-bottom: 0px;
     }
 

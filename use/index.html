@@ -89,6 +89,8 @@
                 <input type="text" id="search-list-tags" class="form-control" onkeyup="searchTagsList()" placeholder="Search for tags" title="Type in a name">
                 <dl id="list-tags">
                     <div class="list-group">
+                        <h5>Tags - first part</h5>
+                        <dt class="list-group-item"><a href="#tag-disabled">disabled</a></dt>
                         <dt class="list-group-item"><a href="#tag-no-select">no-select</a></dt>
                         <dt class="list-group-item"><a href="#tag-no-save">no-save</a></dt>
                         <dt class="list-group-item"><a href="#tag-no-display">no-display</a></dt>
@@ -101,6 +103,9 @@
                         <dt class="list-group-item"><a href="#tag-lowc">low</a></dt>
                         <dt class="list-group-item"><a href="#tag-img-fit">img-fit</a></dt>
                         <dt class="list-group-item"><a href="#tag-img-clip">img-clip</a></dt>
+                        <dt class="list-group-item"><a href="#tag-toolip">tooltip</a></dt>
+                        <dt class="list-group-item"><a href="#tag-border-rd">border-rd</a></dt>
+                        <dt class="list-group-item"><a href="#tag-txt-align">txt-align</a></dt>
                     </div>
                     <div class="list-group">
                             <h5>Tags - second part</h5>
@@ -127,6 +132,7 @@
                             The first part defines the characteristics that need to change of a html-element.
                         </p>
                         <ul class="list-group list-group-flush">
+                            <li id="tag-disabled" class="list-group-item"><h5>disabled</h5>Disables the functionality of an element and fades the element out.</li>
                             <li id="tag-no-select" class="list-group-item"><h5>no-select</h5>Disables the selection of a html-element.</li>
                             <li id="tag-no-save" class="list-group-item"><h5>no-save</h5>Disables the saving of images or similar files by disabling the 'Save as'-option in the context menu when right clicked on an image or other file. It also disables the selection of the html-element.</li>
                             <li id="tag-no-display" class="list-group-item"><h5>no-display</h5>Removes the element. The element won't take any space when removed.</li>
@@ -147,6 +153,20 @@
                                 <pre>
                                     <code>class="img-clip" style="background-image: url(images/background.jpg)"</code>
                                 </pre>
+                            </li>
+                            <li id="tag-toolip" class="list-group-item">
+                                <h5>tooltip-b</h5>
+                                Creates a tooltip relative to the html element.<br>
+                                Add the 'tooltip-b' class to the html-element and define the text inside the tooltip by adding an attribute 'data-tooltip="tooltip text here"'.
+                                <pre>
+                                    <code>class="tooltip-b" data-tooltip="tooltip text here"</code>
+                                </pre>
+                            </li>
+                            <li id="tag-border-rd" class="list-group-item"><h5>border-rd</h5>Adds a border-radius.</li>
+                            <li id="tag-txt-align" class="list-group-item">
+                                <h5>txt-*</h5>
+                                Aligns text.<br>
+                                Second part: Use 'l' to align left, 'r' to align right, 'c' to align centered.
                             </li>
                         </ul>
                     </div>
