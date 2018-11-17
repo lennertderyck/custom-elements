@@ -1,4 +1,4 @@
-<img src="https://ce.lennertderyck.be/images/LOGO_CUSTOM_ELEMENTS_MARGIN.svg" width="300px">
+<img src="https://ce.lennertderyck.be/images/LOGO_CUSTOM_ELEMENTS_MARGIN.svg" width="100%">
 
 A library of css classes, supported by some javascript, that can be easily added to html elements.
 
