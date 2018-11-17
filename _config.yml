@@ -18,7 +18,7 @@ email: hello@lennertderyck.be
 description: >- # this means to ignore newlines until "baseurl:"
   A simple library of css-classes supported by some javascript, making websites easier.
 baseurl: "." # the subpath of your site, e.g. /blog
-url: "http://ce.lennertderyck.be" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://lennertderyck.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lennertderyck
 github_username: lennertderyck
 
