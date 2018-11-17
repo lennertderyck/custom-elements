@@ -1,6 +1,7 @@
 :root {
     /* Transitiontime of collapse */
     --collapse-trans-time: 0.3s;
+    /* */
     
     /* Transitiontime of tooltips */
     --tooltip-trans-time: 0.2s;
@@ -8,7 +9,7 @@
     /* Backgroundcolor of tooltips */
     --tooltip-bg-color: #3D3D3D;
 
-    /* Textcoloc of tooltips */
+    /* Textcolor of tooltips */
     --tooltip-color: white;
     
     /* Border radius of elements with 'border-rd'-class */
