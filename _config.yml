@@ -1,0 +1,20 @@
+# --- General options --- #
+
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+
+# If you are building a simple GitHub user page (https://username.github.io) then use these settings:
+# url: "https://lennertderyck.github.io"
+# baseurl: ""
+
+# If you are building a GitHub project page then use these settings:
+url: "http://lennertderyck.github.io/projectname"
+baseurl: "/custom-elements"
+
+# Of course don't forget to change the username and projectname to YOUR username and project
+
+# Name of website
+title: Custom Elements
+
+# Short description of your site
+description: A library of css classes that can be easily added to html elements.
