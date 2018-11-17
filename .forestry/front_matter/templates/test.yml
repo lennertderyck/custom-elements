@@ -7,3 +7,5 @@ fields:
   default: tekst
   label: tekst
   name: tekst
+pages:
+- test.md
