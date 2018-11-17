@@ -12,10 +12,12 @@
     <title>Custom elements</title>
     <link rel="icon" type="image/png" href="./images/favicon.png" />
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <link rel="stylesheet" href="css/custom.css">
     <script src="https://ce.lennertderyck.be/library/elements.js"></script>
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
@@ -69,19 +71,19 @@
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row" id="start-features" >
             <div class="col">
-                <h3>Get started</h3>
+                <h3><i data-feather="package"></i>Get started</h3>
                 <p>It's easy as copy-pasting some text.<br>The rest is just adding classes</p>
                 <a class="btn btn-outline-primary btn-lg" href="/get-started/#get-started" role="button">Get started</a>
             </div>
             <div class="col">
-                <h3>Easy to use</h3>
+                <h3><i data-feather="zap"></i>Easy to use</h3>
                 <p>You can start using Custom Elements by addding classes to html-elements, so you don't have to worry about writing css.</p>
                 <a class="btn btn-outline-primary btn-lg" href="/use" role="button">How to use</a>
             </div>
             <div class="col">
-                <h3>Customize</h3>
+                <h3><i data-feather="sliders"></i>Customize</h3>
                 <p>Learn to customize all the settings of Custom Elements.</p>
                 <a class="btn btn-outline-primary btn-lg" href="/use/#css-options" role="button">options.css</a>
             </div>
@@ -142,6 +144,10 @@
     </footer>
 
     <!-- Optional JavaScript -->
+    <script>
+        feather.replace()
+    </script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

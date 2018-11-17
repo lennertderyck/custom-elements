@@ -152,6 +152,25 @@ h5{
     letter-spacing: 1px;
 }
 
+/* START FEATURES */
+#start-features > .col > h3 {
+    margin-bottom: 14px;
+}
+
+#start-features > .col svg {
+    margin-bottom: 17px;
+    width: 30px;
+    height: 30px;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+#start-features > .col > h3 > svg {
+    margin-bottom: 0px;
+    margin-right: 12px;
+}
+
+
 /* GET STARTED */
 #get-started {
     margin-bottom: 2rem;
@@ -261,7 +280,7 @@ h5{
 
     /* COMING SOON */
     #coming-soon {
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
     #coming-soon > .card-header {
