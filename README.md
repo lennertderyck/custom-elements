@@ -1,7 +1,7 @@
 # Custom-elements
 A library of css classes, supported by some javascript, that can be easily added to html elements.
 
-Visit <a href="https://ce.lennertderyck.be/ rel="noopener" target="_blank">ce.lennertderyck.be</a> for more info.
+Visit <a href="https://ce.lennertderyck.be" rel="noopener" target="_blank">ce.lennertderyck.be</a> for more info.
 
 ## Bugs
 Found a bug? Let me know and I will try to solve it as quick as possible.
