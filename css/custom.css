@@ -9,6 +9,7 @@ body {
 :target {
     animation-name:example;
     animation-duration: 1.5s;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
 }
 
 @keyframes example {
@@ -48,6 +49,17 @@ pre {
     z-index: 2500;
 }
 
+h3, h6  {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+}
+
+h5{
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 /* NAVBAR */
 .navbar-brand {
     user-select: none;
@@ -62,17 +74,6 @@ pre {
     font-weight: 600; */
     letter-spacing: 1px;
     text-transform: uppercase;
-}
-
-h3 {
-    font-family: 'Wavehaus';
-    font-weight: 600;
-}
-
-h5 {
-    font-family: 'Wavehaus';
-    font-weight: 600;
-    letter-spacing: 1px;
 }
 
 /* GO TO TOP */

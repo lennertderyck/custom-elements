@@ -208,7 +208,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div id="css-options" class="col">
+                    <div class="col" id="css-options">
                         <h3>Options.css</h3>
                         <p>
                             You can tweak some css-settings by downloading the <a class="text-muted" href="https://lennertderyck.github.io/library/custom-elements/custom-elements/custom-elements.zip" download>custom-elements.zip</a> file and adding the unzipt folder to the root of your site. The options.css-file that you'll find in the folder works with css variables where you change the last part of the rule.
@@ -216,6 +216,57 @@
                         <p>
                             You don't need to link the options.css-file in in your websites head, that's already done by the script.
                         </p>
+    
+                        <h5>How it works</h5>
+                        <p>
+                            Editing the settings in the options.css-file is fairly easy.
+                            Just go to the setting you want to edit and change the second part behind the ':'.
+                            Every setting has a description and how you can change it.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li id="option-collapse-trans-time" class="list-group-item">
+                                <h5>Transitiontime of collapse</h5>
+                                <pre>
+                                    <code>--collapse-trans-time: 0.3s;</code>
+                                </pre>
+                                <p>Can be set in seconds [Xs], inherit or initial.</p>
+                            </li>
+                            <li id="option-tooltip-trans-time" class="list-group-item">
+                                <h5>Transitiontime of tooltips</h5>
+                                <pre>
+                                    <code>--tooltip-trans-time: 0.2s;</code>
+                                </pre>
+                                <p>Can be set in seconds [Xs], inherit or initial.</p>
+                            </li>
+                            <li id="option-tooltip-bg-color" class="list-group-item">
+                                <h5>Background-color of tooltips</h5>
+                                <pre>
+                                    <code>--tooltip-bg-color: #3D3D3D;</code>
+                                </pre>
+                                <p>Can be set to a color (predefined color names, hexadecimal colors, rgb & rgba colors and hsl & hsla colors), transparent, inherit or initial.</p>
+                            </li>
+                            <li id="option-tooltip-color" class="list-group-item">
+                                <h5>Textcolor of tooltips</h5>
+                                <pre>
+                                    <code>--tooltip-color: white;</code>
+                                </pre>
+                                <p>Can be set to a color (predefined color names, hexadecimal colors, rgb & rgba colors and hsl & hsla colors), transparent, inherit or initial.</p>
+                            </li>
+                            <li id="option-border-radius" class="list-group-item">
+                                <h5>Border radius of elements with 'border-rd'-class</h5>
+                                <pre>
+                                    <code>--border-radius: 6px;</code>
+                                </pre>
+                                <p>Can be set to a length [Xs], percentages [X%], inherit or initial.</p>
+                            </li>
+                            <li id="option-disabled-fade" class="list-group-item">
+                                <h5>Fading of disabled element with 'disabled'-class</h5>
+                                <pre>
+                                    <code>--disabled-fade: 0.6;</code>
+                                </pre>
+                                <p>Can be set to a number between 1 and 0. The number describes how much of the element is still visible, not how much it's faded.<br>Example: the number 0.5 will fade the object for 50%, but 0.25 will fade it for 75%.</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
