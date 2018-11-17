@@ -248,6 +248,7 @@ h5{
         color: #fff;
         background-color: #007bff;
         border-color: #007bff;
+        user-select: none;
     }
 
     #whats-new > .card-body > :last-child {
@@ -265,6 +266,7 @@ h5{
 
     #coming-soon > .card-header {
         color: #007bff;
+        user-select: none;
     }
 
     #coming-soon > .card-body {
