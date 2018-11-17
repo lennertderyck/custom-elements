@@ -1,4 +1,5 @@
-![alt text](https://ce.lennertderyck.be/images/LOGO_CUSTOM_ELEMENTS_MARGIN.svg "Logo Custom Elements")
+<img src="https://ce.lennertderyck.be/images/LOGO_CUSTOM_ELEMENTS_MARGIN.svg" width="300px">
+
 A library of css classes, supported by some javascript, that can be easily added to html elements.
 
 **Visit <a href="https://ce.lennertderyck.be" rel="noopener" target="_blank">ce.lennertderyck.be</a> for more info.**
